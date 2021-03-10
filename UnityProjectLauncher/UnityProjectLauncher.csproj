@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>unityplayer64.ico</ApplicationIcon>
+    <Authors>Michael Meier</Authors>
+    <Company>Meier-Digital</Company>
+    <Description>Simple helper executable which allows you to open your Unity Project from its main folder.</Description>
+    <Copyright>Michael Meier / All rights regarding the Unity Icon remain with Unity Technologies - Its soley used for ease of use.</Copyright>
+    <PackageProjectUrl>https://www.meier-digital.com</PackageProjectUrl>
+    <PackageIcon>UnityPlayerIcon.png</PackageIcon>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Images\UnityPlayerIcon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
